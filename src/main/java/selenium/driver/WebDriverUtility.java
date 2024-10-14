@@ -32,7 +32,6 @@ public class WebDriverUtility {
             webDriver.quit();
     }
 
-
     private static ChromeOptions getChromeOptions() {
         ChromeOptions options = new ChromeOptions();
         // To start chrome in english
